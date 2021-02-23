@@ -1,9 +1,11 @@
-#write a program that takes three numbers and print their sum. every number is given on a separate line
-num1=int(input("enter the first num"))
-num2=int(input("enter the second num"))
-num3=int(input("enter the third num"))
-sum=num1+num2+num3
-print("the sum of given number is",sum)
+#write a program that that reads the base and the height of a right-angled triangle and prints the area.
+#every number is given on a seperate line
+base=int(input(" enter the base"))
+height=int(input("enter the height"))
+area=(base*height)//2
+#the floor division // rounds the result down to the nearest whole number
+print(f"the area of right angled triangle is {area}")
+
 
 
 
